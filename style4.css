@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.nav-bar{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 4.3rem;
+    margin-right: 3rem;
+}
+li:hover{
+    background-color: #DE949473;
+}
+ul li{
+    list-style: none;
+    margin-left: 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1.4rem;
+}
+.one-header{
+    background-color: #87C5E8;
+    height: 100%;
+    width: 16vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.middle{
+    background-color: #DE9494;
+    height: 100%;
+    margin-left: 180px;
+    display: flow-root;
+}
+.intro{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+.content{
+    padding: 3rem;
+    padding-bottom: 0;
+    width: 90%;
+    margin-left: 1.3rem;
+    height: 150vh;
+}
+.p1,.p2,.p3,.p4,.p5,.p6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1.3rem;
+}
+.p6{
+    margin-bottom: 0.3rem !important;
+}
+p{
+    line-height: 1.6;
+}
+#first{
+    background-color: #B65C5C;
+    margin-top: 1rem;
+    position: sticky;
+    top: 0;
+}
+#second{
+    background-color: #5C8BB6;
+    position: sticky;
+    top: 0;
+}
+#third{
+    background-color: #5CB6B6;
+    position: sticky;
+    top: 0;
+}
